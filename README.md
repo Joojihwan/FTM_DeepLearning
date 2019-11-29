@@ -48,4 +48,4 @@
       - requests
       - BeautifulSoup
       
-    - response = request.get() 함수를 사용하여 response에는 서버에서의 응답을 저장하고, get() 함수 안에 쿼리문을 실어다.
+    - response = request.get() 함수를 사용하여 response에는 서버에서의 응답을 저장하고, get() 함수 안에 쿼리문을 넣어 보낸다.
