@@ -40,10 +40,12 @@
     8. Pandas의 to_csv 함수를 사용해 러닝된 데이터를 csv 파일 형식으로 저장한다.
     
     
-  - Send_To_Server.ipynb
+  - DataSending.ipynb
     - 반복문 내에서의 쿼리문 사용으로 서버에 데이터 전체를 전송하는 코드
     
     - 사용된 라이브러리
       - pandas
       - requests
       - BeautifulSoup
+      
+    - response = request.get() 함수를 사용하여 response에는 서버에서의 응답을 저장하고, get() 함수 안에 쿼리문을 실어 다.
